@@ -1,0 +1,96 @@
+html {
+    background-image: url("testbg.png"), radial-gradient(circle farthest-corner at 30% 0%, black, rgb(53, 53, 53));
+    background-repeat: repeat;
+    min-height: 100%;
+    min-width: 124px;
+
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.allText {
+    color: lightyellow;
+
+    a:link,
+    a:visited {
+        color: rgb(194, 194, 187);
+    }
+
+    padding-left: 10px;
+}
+
+.rightAligned {
+    text-align: right;
+}
+
+table {
+    margin-bottom: 20px;
+    max-width: 50%;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+.tableImage {
+    text-align: center;
+}
+
+#holder {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:700px) {
+    .flexbox-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.box-common {
+    color: aliceblue;
+    text-align: center;
+    border: 5px solid white;
+    flex: 25;
+}
+
+footer {
+    position: absolute;
+    margin-top: auto;
+    padding-top: 10px;
+    bottom: 0;
+}
+
+.borderedImage {
+    border: 2px solid lightyellow;
+    max-width: 200px;
+}
+
+.nonBorderedImage {
+    max-width: 200px;
+}
+
+#outerDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+#innerDiv {
+    padding-left: 25px;
+    padding-right: 25px;
+}
